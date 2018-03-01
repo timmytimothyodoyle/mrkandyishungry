@@ -1,0 +1,39 @@
+<${name}
+	jcr:primaryType="nt:unstructured"
+	sling:resourceType="cq/gui/components/common/tagspicker"
+	renderReadyOnly="{Boolean}true"
+	allowBulkEdit="{Boolean}true"
+	allowCreate="{Boolean}true"
+	cq-msm-lockable="cq:tags"
+	cq:showOnCreate="{Boolean}true"
+	name="./${name}"		
+	fieldLabel="${title}"
+	fieldDescription="${description}"/>
+	
+	
+<${name}
+    name="./${name}"
+    required="{Boolean}${required}"
+    disabled="{Boolean}${disabled}"
+    multiple="{Boolean}${multiple}"
+    emptyText="${empty}"
+    validation="${validation}"
+    fieldLabel="${title}"
+    allowBulkEdit="{Boolean}true"
+    autocreateTag="{Boolean}true"
+    fieldDescription="${description}"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/coral/common/form/tagfield">
+    <granite:data
+        jcr:primaryType="nt:unstructured"
+        cq-msm-lockable="${name}"/>
+</${name}>
+<${name}ShowOnCreate
+    cq:hideOnEdit="{Boolean}true"
+    cq:showOnCreate="{Boolean}true"
+    granite:comment="Handled by a custom POST servlet for the Create Page case"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/coral/common/form/tagfield"
+    fieldLabel="${title}"
+    multiple="{Boolean}${multiple}"
+    name="./${name}"/>

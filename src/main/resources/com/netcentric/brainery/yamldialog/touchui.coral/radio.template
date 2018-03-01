@@ -1,0 +1,7 @@
+<radio${id}
+    text="${text}"
+    value="${value}"
+    checked="{Boolean}${checked}"
+    disabled="{Boolean}${disabled}"
+    jcr:primaryType="nt:unstructured"    
+    sling:resourceType="granite/ui/components/foundation/form/radio"/>

@@ -1,0 +1,11 @@
+<${name}
+    name="./${name}"
+    fieldLabel="${title}"
+    defaultValue="${defaultvalue}"
+    jcr:primaryType="nt:unstructured"
+    fieldDescription="${description}"
+    sling:resourceType="granite/ui/components/foundation/form/select">
+    <items jcr:primaryType="nt:unstructured">
+        ${options}
+    </items>
+</${name}>

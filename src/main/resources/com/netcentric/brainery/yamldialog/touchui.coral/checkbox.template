@@ -1,0 +1,12 @@
+<${name}
+    name="./${name}"
+    text="${title}"
+    uncheckedValue="${unchecked}"
+    checked="{Boolean}${checked}"
+    value="${value}"
+    autosubmit="{Boolean}${autosubmit}"
+    required="{Boolean}${required}"
+    disabled="{Boolean}${disabled}"
+    fieldDescription="${description}"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"/>

@@ -1,0 +1,22 @@
+<${name}
+	jcr:primaryType="nt:unstructured"
+	sling:resourceType="granite/ui/components/foundation/form/multifield"
+	fieldLabel="${title}"
+	fieldDescription="${description}"
+	>
+	<field jcr:primaryType="nt:unstructured"
+		sling:resourceType="granite/ui/components/foundation/form/fieldset"
+		name="${name}">
+		<layout jcr:primaryType="nt:unstructured"
+			sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+			method="absolute"/>
+		<items jcr:primaryType="nt:unstructured">
+			<column jcr:primaryType="nt:unstructured"
+				sling:resourceType="granite/ui/components/foundation/container">
+				<items jcr:primaryType="nt:unstructured">
+					${items}
+				</items>
+			</column>
+		</items>
+	</field>
+</${name}>

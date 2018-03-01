@@ -1,0 +1,12 @@
+<${name}
+    max="{Long}${max}"
+    min="{Long}${min}"
+    name="./${name}"
+    step="{Long}${step}"
+    value="${value}"
+    required="{Boolean}${required}"
+    disabled="{Boolean}${disabled}"
+    fieldLabel="${title}"
+    fieldDescription="${description}"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"/>

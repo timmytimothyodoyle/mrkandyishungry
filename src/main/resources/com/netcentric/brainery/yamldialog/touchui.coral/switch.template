@@ -1,0 +1,14 @@
+<${name}
+    name="./${name}"
+    class="${clazz}"
+    checked="${defaultvalue}"
+    value="${checked}"
+    onText="${on}"
+    offText="${off}"
+    required="{Boolean}${required}"
+    disabled="{Boolean}${disabled}"
+    fieldLabel="${title}"
+    uncheckedValue="${unchecked}"
+    fieldDescription="${description}"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/coral/foundation/form/switch"/>

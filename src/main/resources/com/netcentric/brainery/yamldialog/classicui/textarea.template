@@ -1,0 +1,8 @@
+<${name}
+    rows="{Long}${rows}"
+    cols="{Long}${columns}"
+    name="./${name}"
+    fieldLabel="${title}"
+    jcr:primaryType="nt:unstructured"
+    fieldDescription="${description}"
+    sling:resourceType="granite/ui/components/foundation/form/textarea"/>

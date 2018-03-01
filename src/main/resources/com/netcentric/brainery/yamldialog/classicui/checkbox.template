@@ -1,0 +1,7 @@
+<${name}
+    name="./${name}"
+    text="${title}"
+    description="${description}"
+    defaultValue="${defaultvalue}"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/foundation/form/checkbox"/>

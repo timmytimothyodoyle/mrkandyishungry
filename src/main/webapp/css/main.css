@@ -1,0 +1,28 @@
+
+.fixed-top-navigation {
+	top: 20px;
+	right: 20px;
+	position: absolute;	
+}
+
+.fixed-bottom-navigation {
+	right: 20px;
+	bottom: 20px;	
+	position: absolute;	
+}
+
+.navigation-list li {
+	margin-top: 10px;
+}
+
+.modal {
+	padding-bottom: 0px !important;
+}
+
+.form-label-validation {
+	width: 100% !important;
+}
+
+.html5dialoginput {
+	display: none;
+}

@@ -1,0 +1,4 @@
+<cq:inplaceEditing
+    jcr:primaryType="cq:InplaceEditingConfig"
+    active="{Boolean}true"
+    editorType="image"/>

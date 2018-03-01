@@ -1,0 +1,16 @@
+<${name}
+    name="./${name}"
+    value="${defaultvalue}"
+    rootPath="${root}"
+    fieldLabel="${title}"
+    emptyText="${empty}"
+    required="{Boolean}${required}"
+    disabled="{Boolean}${disabled}"
+    validation="${validation}"
+    fieldDescription="${description}"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser">
+    <granite:data
+        jcr:primaryType="nt:unstructured"
+        cq-msm-lockable="${name}"/>
+</${name}>

@@ -1,0 +1,22 @@
+<${name}
+    name="./${name}"
+    ordered="{Boolean}${ordered}"
+    multiple="{Boolean}${multiple}"
+    required="{Boolean}${required}"
+    disabled="{Boolean}${disabled}"
+    emptyText="${empty}"
+    fieldLabel="${title}"
+    validation="${validation}"
+    emptyOption="{Boolean}${empty}"
+    fieldDescription="${description}"
+    jcr:primaryType="nt:unstructured"
+    translateOptions="{Boolean}${translate}"
+    granite:class="cq-dialog-dropdown-showhide"
+    sling:resourceType="granite/ui/components/coral/foundation/form/select">
+    <granite:data
+        cq-dialog-dropdown-showhide-target="${target}"
+        jcr:primaryType="nt:unstructured"/>
+    <items jcr:primaryType="nt:unstructured">
+        ${options}
+    </items>
+</${name}>

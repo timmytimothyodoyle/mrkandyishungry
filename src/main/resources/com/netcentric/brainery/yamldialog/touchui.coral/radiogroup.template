@@ -1,0 +1,12 @@
+<${name}
+    name="./${name}"
+    required="{Boolean}${required}"
+    disabled="{Boolean}${disabled}"
+    text="${title}"
+    class="coral-RadioGroup--vertical"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/foundation/form/radiogroup">
+    <items jcr:primaryType="nt:unstructured">
+        ${radios}
+    </items>
+</${name}>

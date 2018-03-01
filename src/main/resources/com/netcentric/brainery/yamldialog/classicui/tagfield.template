@@ -1,0 +1,11 @@
+<${name}
+	jcr:primaryType="nt:unstructured"
+	sling:resourceType="cq/gui/components/common/tagspicker"
+	renderReadyOnly="{Boolean}true"
+	allowBulkEdit="{Boolean}true"
+	allowCreate="{Boolean}true"
+	cq-msm-lockable="cq:tags"
+	cq:showOnCreate="{Boolean}true"
+	name="./${name}"		
+	fieldLabel="${title}"
+	fieldDescription="${description}"/>

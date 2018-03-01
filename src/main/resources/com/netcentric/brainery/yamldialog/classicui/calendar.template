@@ -1,0 +1,16 @@
+<${name}
+    name="./${name}"
+    type="datetime"
+    required="{Boolean}${required}"
+    fieldLabel="${title}"
+    renderReadOnly="{Boolean}true"
+    displayedFormat="${format}"
+    jcr:primaryType="nt:unstructured"
+    fieldDescription="${description}"
+    displayTimezoneMessage="{Boolean}true"
+    sling:resourceType="granite/ui/components/coral/foundation/form/datepicker">
+    <granite:data
+        jcr:primaryType="nt:unstructured"
+        allowBulkEdit="{Boolean}true"
+        cq-msm-lockable="${name}"/>
+</${name}>

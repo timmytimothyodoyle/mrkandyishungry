@@ -1,0 +1,15 @@
+<${name}
+	name="${name}"	
+	class="cq-droptarget"
+	title="${title}"
+	multiple="{Boolean}false"
+	useHTML5="{Boolean}true"
+	uploadUrl="${suffix.path}"	
+	autoStart="{Boolean}false"
+	mimeTypes="[image]"
+	fieldLabel="${title}"
+	fieldDescription="${description}"
+	fileNameParameter="${name}/fileReferenceParameter"
+	fileReferenceParameter="${name}/fileReference"	
+	jcr:primaryType="nt:unstructured"	
+	sling:resourceType="granite/ui/components/foundation/form/fileupload"/>

@@ -1,0 +1,7 @@
+<option${id}
+    text="${text}"
+    icon="${icon}"
+    value="${value}"
+    selected="{Boolean}${selected}"
+    disabled="{Boolean}${disabled}"
+    jcr:primaryType="nt:unstructured"/>

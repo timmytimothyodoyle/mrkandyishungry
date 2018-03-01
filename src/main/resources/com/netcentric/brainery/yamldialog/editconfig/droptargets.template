@@ -1,0 +1,3 @@
+<cq:dropTargets jcr:primaryType="nt:unstructured">
+    ${items}
+</cq:dropTargets>

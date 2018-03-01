@@ -1,0 +1,8 @@
+<${name}
+	name="./${name}"
+	rootPath="${root}"
+	required="{Boolean}${required}"	
+	fieldLabel="${title}"
+	fieldDescription="${description}"
+	jcr:primaryType="nt:unstructured"
+	sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
